@@ -26,7 +26,7 @@
 
 #include "audio/vita_audio.h"
 
-INCLUDE_EXTERN_RESOURCE(english_us_txt);
+INCLUDE_EXTERN_RESOURCE(japanese_txt);
 
 INCLUDE_EXTERN_RESOURCE(theme_txt);
 
@@ -86,7 +86,7 @@ INCLUDE_EXTERN_RESOURCE(patch_skprx);
 #define DEFAULT_FILE(path, name, replace) { path, (void *)&_binary_resources_##name##_start, (int)&_binary_resources_##name##_size, replace }
 
 static DefaultFile default_files[] = {
-  DEFAULT_FILE("ux0:VitaShell/language/english_us.txt", english_us_txt, 0),
+  DEFAULT_FILE("ux0:VitaShell/language/japanese.txt", japanese_txt, 0),
 
   DEFAULT_FILE("ux0:VitaShell/theme/theme.txt", theme_txt, 0),
 
