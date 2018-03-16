@@ -85,12 +85,12 @@ static SettingsMenu settings_menu;
 void loadSettingsConfig() {
   // Load settings config file
   memset(&vitashell_config, 0, sizeof(VitaShellConfig));
-  readConfig("ux0:VitaShell/settings.txt", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
+  readConfig("ux0:VitaShell_JP/settings.txt", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
 }
 
 void saveSettingsConfig() {
   // Save settings config file
-  writeConfig("ux0:VitaShell/settings.txt", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
+  writeConfig("ux0:VitaShell_JP/settings.txt", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
 
   if (sceKernelGetModel() == SCE_KERNEL_MODEL_VITATV) {
     vitashell_config.select_button = SELECT_BUTTON_MODE_FTP;
@@ -152,7 +152,7 @@ void openSettingsMenu() {
   if (theme_name)
     free(theme_name);
 
-  readConfig("ux0:VitaShell/theme/theme.txt", theme_entries, sizeof(theme_entries) / sizeof(ConfigEntry));
+  readConfig("ux0:VitaShell_JP/theme/theme.txt", theme_entries, sizeof(theme_entries) / sizeof(ConfigEntry));
 
   // Get theme index in main tab
   int theme_index = -1;
@@ -167,7 +167,7 @@ void openSettingsMenu() {
 
   // Find all themes
   if (theme_index >= 0) {
-    SceUID dfd = sceIoDopen("ux0:VitaShell/theme");
+    SceUID dfd = sceIoDopen("ux0:VitaShell_JP/theme");
     if (dfd >= 0) {
       theme_count = 0;
       theme = 0;
@@ -210,7 +210,7 @@ void closeSettingsMenu() {
       
     // Save theme config file
     theme_entries[0].value = &theme_options[theme];
-    writeConfig("ux0:VitaShell/theme/theme.txt", theme_entries, sizeof(theme_entries) / sizeof(ConfigEntry));
+    writeConfig("ux0:VitaShell_JP/theme/theme.txt", theme_entries, sizeof(theme_entries) / sizeof(ConfigEntry));
     theme_entries[0].value = (void *)&theme_name;
   }
 }

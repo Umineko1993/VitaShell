@@ -61,7 +61,7 @@ int mountUsbUx0() {
   copyPath("ux0:id.dat", "uma0:id.dat", NULL);
 
   // Remove lastdir.txt file
-  sceIoRemove("uma0:VitaShell/internal/lastdir.txt");
+  sceIoRemove("uma0:VitaShell_JP/internal/lastdir.txt");
 
   // Redirect ux0: to uma0:
   shellUserRedirectUx0();

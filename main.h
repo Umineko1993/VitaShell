@@ -57,7 +57,7 @@
 
 #define VITASHELL_VERSION ((VITASHELL_VERSION_MAJOR << 0x18) | (VITASHELL_VERSION_MINOR << 0x10))
 
-#define VITASHELL_LASTDIR "ux0:VitaShell/internal/lastdir.txt"
+#define VITASHELL_LASTDIR "ux0:VitaShell_JP/internal/lastdir.txt"
 
 #define VITASHELL_TITLEID "VITASHELL"
 

@@ -503,7 +503,7 @@ static void initUsb() {
   if (!path)
     return;
 
-  usbdevice_modid = startUsb("ux0:VitaShell/module/usbdevice.skprx", path, SCE_USBSTOR_VSTOR_TYPE_FAT);
+  usbdevice_modid = startUsb("ux0:VitaShell_JP/module/usbdevice.skprx", path, SCE_USBSTOR_VSTOR_TYPE_FAT);
   if (usbdevice_modid >= 0) {
     // Lock power timers
     powerLock();
