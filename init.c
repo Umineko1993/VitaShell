@@ -86,62 +86,62 @@ INCLUDE_EXTERN_RESOURCE(patch_skprx);
 #define DEFAULT_FILE(path, name, replace) { path, (void *)&_binary_resources_##name##_start, (int)&_binary_resources_##name##_size, replace }
 
 static DefaultFile default_files[] = {
-  DEFAULT_FILE("ux0:VitaShell/language/japanese.txt", japanese_txt, 0),
+  DEFAULT_FILE("ux0:VitaShell_JP_JP/language/japanese.txt", japanese_txt, 0),
 
-  DEFAULT_FILE("ux0:VitaShell/theme/theme.txt", theme_txt, 0),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/theme.txt", theme_txt, 0),
 
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/colors.txt", default_colors_txt, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/archive_icon.png", default_archive_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/audio_icon.png", default_audio_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/battery.png", default_battery_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/battery_bar_charge.png", default_battery_bar_charge_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/battery_bar_green.png", default_battery_bar_green_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/battery_bar_red.png", default_battery_bar_red_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/cover.png", default_cover_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/fastforward.png", default_fastforward_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/fastrewind.png", default_fastrewind_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/file_icon.png", default_file_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/folder_icon.png", default_folder_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/ftp.png", default_ftp_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/image_icon.png", default_image_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/pause.png", default_pause_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/play.png", default_play_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/sfo_icon.png", default_sfo_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Default/text_icon.png", default_text_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/colors.txt", default_colors_txt, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/archive_icon.png", default_archive_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/audio_icon.png", default_audio_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/battery.png", default_battery_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/battery_bar_charge.png", default_battery_bar_charge_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/battery_bar_green.png", default_battery_bar_green_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/battery_bar_red.png", default_battery_bar_red_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/cover.png", default_cover_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/fastforward.png", default_fastforward_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/fastrewind.png", default_fastrewind_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/file_icon.png", default_file_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/folder_icon.png", default_folder_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/ftp.png", default_ftp_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/image_icon.png", default_image_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/pause.png", default_pause_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/play.png", default_play_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/sfo_icon.png", default_sfo_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Default/text_icon.png", default_text_icon_png, 1),
 
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/colors.txt", electron_colors_txt, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/archive_icon.png", electron_archive_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/audio_icon.png", electron_audio_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/battery.png", electron_battery_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/battery_bar_charge.png", electron_battery_bar_charge_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/battery_bar_green.png", electron_battery_bar_green_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/battery_bar_red.png", electron_battery_bar_red_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/bg_audioplayer.png", electron_bg_audioplayer_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/bg_browser.png", electron_bg_browser_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/bg_hexeditor.png", electron_bg_hexeditor_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/bg_photoviewer.png", electron_bg_photoviewer_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/bg_texteditor.png", electron_bg_texteditor_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/context.png", electron_context_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/context_more.png", electron_context_more_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/cover.png", electron_cover_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/dialog.png", electron_dialog_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/fastforward.png", electron_fastforward_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/fastrewind.png", electron_fastrewind_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/file_icon.png", electron_file_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/folder_icon.png", electron_folder_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/ftp.png", electron_ftp_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/image_icon.png", electron_image_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/pause.png", electron_pause_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/play.png", electron_play_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/sfo_icon.png", electron_sfo_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/text_icon.png", electron_text_icon_png, 1),
-  DEFAULT_FILE("ux0:VitaShell/theme/Electron/settings.png", electron_settings_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/colors.txt", electron_colors_txt, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/archive_icon.png", electron_archive_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/audio_icon.png", electron_audio_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/battery.png", electron_battery_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/battery_bar_charge.png", electron_battery_bar_charge_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/battery_bar_green.png", electron_battery_bar_green_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/battery_bar_red.png", electron_battery_bar_red_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/bg_audioplayer.png", electron_bg_audioplayer_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/bg_browser.png", electron_bg_browser_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/bg_hexeditor.png", electron_bg_hexeditor_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/bg_photoviewer.png", electron_bg_photoviewer_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/bg_texteditor.png", electron_bg_texteditor_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/context.png", electron_context_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/context_more.png", electron_context_more_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/cover.png", electron_cover_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/dialog.png", electron_dialog_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/fastforward.png", electron_fastforward_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/fastrewind.png", electron_fastrewind_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/file_icon.png", electron_file_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/folder_icon.png", electron_folder_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/ftp.png", electron_ftp_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/image_icon.png", electron_image_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/pause.png", electron_pause_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/play.png", electron_play_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/sfo_icon.png", electron_sfo_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/text_icon.png", electron_text_icon_png, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/theme/Electron/settings.png", electron_settings_png, 1),
 
-  DEFAULT_FILE("ux0:VitaShell/module/user.suprx", user_suprx, 1),
-  DEFAULT_FILE("ux0:VitaShell/module/usbdevice.skprx", usbdevice_skprx, 1),
-  DEFAULT_FILE("ux0:VitaShell/module/kernel.skprx", kernel_skprx, 1),
-  DEFAULT_FILE("ux0:VitaShell/module/umass.skprx", umass_skprx, 1),
-  DEFAULT_FILE("ux0:VitaShell/module/patch.skprx", patch_skprx, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/module/user.suprx", user_suprx, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/module/usbdevice.skprx", usbdevice_skprx, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/module/kernel.skprx", kernel_skprx, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/module/umass.skprx", umass_skprx, 1),
+  DEFAULT_FILE("ux0:VitaShell_JP/module/patch.skprx", patch_skprx, 1),
 };
 
 char vitashell_titleid[12];
@@ -295,13 +295,13 @@ static void finishNet() {
 
 void installDefaultFiles() {
   // Make VitaShell folders
-  sceIoMkdir("ux0:VitaShell", 0777);
-  sceIoMkdir("ux0:VitaShell/internal", 0777);
-  sceIoMkdir("ux0:VitaShell/language", 0777);
-  sceIoMkdir("ux0:VitaShell/module", 0777);
-  sceIoMkdir("ux0:VitaShell/theme", 0777);
-  sceIoMkdir("ux0:VitaShell/theme/Default", 0777);
-  sceIoMkdir("ux0:VitaShell/theme/Electron", 0777);
+  sceIoMkdir("ux0:VitaShell_JP", 0777);
+  sceIoMkdir("ux0:VitaShell_JP/internal", 0777);
+  sceIoMkdir("ux0:VitaShell_JP/language", 0777);
+  sceIoMkdir("ux0:VitaShell_JP/module", 0777);
+  sceIoMkdir("ux0:VitaShell_JP/theme", 0777);
+  sceIoMkdir("ux0:VitaShell_JP/theme/Default", 0777);
+  sceIoMkdir("ux0:VitaShell_JP/theme/Electron", 0777);
 
   // Write default files if they don't exist
   int i;
@@ -367,9 +367,9 @@ void initVitaShell() {
   installDefaultFiles();
 
   // Load modules
-  patch_modid = taiLoadStartKernelModule("ux0:VitaShell/module/patch.skprx", 0, NULL, 0);
-  kernel_modid = taiLoadStartKernelModule("ux0:VitaShell/module/kernel.skprx", 0, NULL, 0);
-  user_modid = sceKernelLoadStartModule("ux0:VitaShell/module/user.suprx", 0, NULL, 0, NULL, NULL);
+  patch_modid = taiLoadStartKernelModule("ux0:VitaShell_JP/module/patch.skprx", 0, NULL, 0);
+  kernel_modid = taiLoadStartKernelModule("ux0:VitaShell_JP/module/kernel.skprx", 0, NULL, 0);
+  user_modid = sceKernelLoadStartModule("ux0:VitaShell_JP/module/user.suprx", 0, NULL, 0, NULL, NULL);
 }
 
 void finishVitaShell() {
