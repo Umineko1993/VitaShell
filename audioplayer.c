@@ -410,7 +410,7 @@ int audioPlayer(const char *file, int type, FileList *list, FileListEntry *entry
       title_x = scroll_x;
     }
 
-    pgf_draw_text(title_x, START_Y + (0 * FONT_Y_SPACE), color, fileinfo->title[0] == '\0' ? "-" : fileinfo->title);
+    pgf_draw_text(title_x, START_Y + (0 * FONT_Y_SPACE), color, fileinfo->title[0] == '\0' ? "-" : fileinfo->title);    
     pgf_draw_text(x, START_Y + (1 * FONT_Y_SPACE), AUDIO_INFO, fileinfo->album[0] == '\0' ? "-" : fileinfo->album);
     pgf_draw_text(x, START_Y + (2 * FONT_Y_SPACE), AUDIO_INFO, fileinfo->artist[0] == '\0' ? "-" : fileinfo->artist);
     pgf_draw_text(x, START_Y + (3 * FONT_Y_SPACE), AUDIO_INFO, fileinfo->genre[0] == '\0' ? "-" : fileinfo->genre);
