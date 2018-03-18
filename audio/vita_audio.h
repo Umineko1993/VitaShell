@@ -1,4 +1,4 @@
-/*
+﻿/*
  * vitaWav.h: Header for WAV audio playback
  * This file is part of the "Phoenix Game Engine".
  *

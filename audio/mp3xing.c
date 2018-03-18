@@ -1,4 +1,4 @@
-//    LightMP3
+﻿//    LightMP3
 //    Copyright (C) 2009 Sakya
 //    sakya_tg@yahoo.it
 //

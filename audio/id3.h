@@ -1,4 +1,4 @@
-#ifndef __id3_h
+﻿#ifndef __id3_h
 #define __id3_h (1)
 
 #include <stdio.h>
