@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yusk5/VitaShell/modules/usbdevice/main.c
+psp2kern/kernel/modulemgr.h
+-
+psp2kern/io/fcntl.h
+-
+stdio.h
+-
+string.h
+-
+taihen.h
+-
+
