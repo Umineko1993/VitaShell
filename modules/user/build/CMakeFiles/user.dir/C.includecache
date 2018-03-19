@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yusk5/VitaShell/modules/user/main.c
+psp2/kernel/modulemgr.h
+-
+psp2/kernel/sysmem.h
+-
+psp2/io/fcntl.h
+-
+stdio.h
+-
+string.h
+-
+stdarg.h
+-
+vitashell_kernel.h
+-
+
