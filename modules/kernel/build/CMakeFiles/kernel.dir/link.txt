@@ -1,0 +1,1 @@
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q -Wl,-q -Wall -O3 -nostdlib  -Wl,-z,nocopyreloc CMakeFiles/kernel.dir/main.c.obj  -o kernel -lSceIofilemgrForDriver_stub -lSceSysclibForDriver_stub -lSceSysmemForDriver_stub -lSceModulemgrForKernel_stub -lSceModulemgrForDriver_stub -lSceThreadmgrForDriver_stub -ltaihenForKernel_stub -ltaihenModuleUtils_stub 

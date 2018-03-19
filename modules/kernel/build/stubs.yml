@@ -1,0 +1,12 @@
+---
+modules:
+  VitaShellKernel2:
+    nid: 0x1bd9f0d8
+    libraries:
+      VitaShellKernel2Library:
+        nid: 0x81bbb7e2
+        kernel: false
+        functions:
+          shellKernelIsUx0Redirected: 0x890a5f0b
+          shellKernelRedirectUx0: 0x8c5747db
+          shellKernelUnredirectUx0: 0xe144352c
