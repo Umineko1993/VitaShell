@@ -1,0 +1,8 @@
+/home/yusk5/VitaShell/build/CMakeFiles/rebuild_cache.dir
+/home/yusk5/VitaShell/build/CMakeFiles/copy.dir
+/home/yusk5/VitaShell/build/CMakeFiles/send.dir
+/home/yusk5/VitaShell/build/CMakeFiles/edit_cache.dir
+/home/yusk5/VitaShell/build/CMakeFiles/VitaShell_JP.dir
+/home/yusk5/VitaShell/build/CMakeFiles/eboot.bin.dir
+/home/yusk5/VitaShell/build/CMakeFiles/VitaShell_JP.vpk.dir
+/home/yusk5/VitaShell/build/CMakeFiles/release.dir
