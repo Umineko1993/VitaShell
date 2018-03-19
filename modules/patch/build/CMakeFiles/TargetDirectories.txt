@@ -1,0 +1,6 @@
+/home/yusk5/VitaShell/modules/patch/build/CMakeFiles/edit_cache.dir
+/home/yusk5/VitaShell/modules/patch/build/CMakeFiles/rebuild_cache.dir
+/home/yusk5/VitaShell/modules/patch/build/CMakeFiles/patch.dir
+/home/yusk5/VitaShell/modules/patch/build/CMakeFiles/patch.skprx.dir
+/home/yusk5/VitaShell/modules/patch/build/CMakeFiles/stubs.dir
+/home/yusk5/VitaShell/modules/patch/build/CMakeFiles/copy.dir
