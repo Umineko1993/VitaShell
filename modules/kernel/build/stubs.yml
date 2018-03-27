@@ -1,7 +1,7 @@
 ---
 modules:
   VitaShellKernel2:
-    nid: 0x1bd9f0d8
+    nid: 0x24b5e538
     libraries:
       VitaShellKernel2Library:
         nid: 0x81bbb7e2
@@ -10,3 +10,5 @@ modules:
           shellKernelIsUx0Redirected: 0x890a5f0b
           shellKernelRedirectUx0: 0x8c5747db
           shellKernelUnredirectUx0: 0xe144352c
+          shellKernelMountById: 0x70ef5d9
+          shellKernelGetRifVitaKey: 0xa28967da

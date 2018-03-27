@@ -13,6 +13,8 @@ psp2kern/kernel/modulemgr.h
 -
 psp2kern/kernel/sysmem.h
 -
+psp2kern/kernel/threadmgr.h
+-
 psp2kern/io/fcntl.h
 -
 stdio.h
@@ -21,4 +23,8 @@ string.h
 -
 taihen.h
 -
+vitashell_kernel.h
+/home/yusk5/VitaShell/modules/kernel/vitashell_kernel.h
+
+/home/yusk5/VitaShell/modules/kernel/vitashell_kernel.h
 
