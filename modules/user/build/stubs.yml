@@ -1,7 +1,7 @@
 ---
 modules:
   VitaShellUser:
-    nid: 0x715586a9
+    nid: 0x5ef03cc9
     libraries:
       VitaShellUserLibrary:
         nid: 0xb07dbdd0
@@ -10,3 +10,5 @@ modules:
           shellUserIsUx0Redirected: 0x1e3a154b
           shellUserRedirectUx0: 0x8b2c59bb
           shellUserUnredirectUx0: 0xed9203bc
+          shellUserMountById: 0x187e97ae
+          shellUserGetRifVitaKey: 0x3f50feac

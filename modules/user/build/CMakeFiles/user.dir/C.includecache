@@ -19,6 +19,10 @@ string.h
 -
 stdarg.h
 -
+vitashell_user.h
+/home/yusk5/VitaShell/modules/user/vitashell_user.h
+
+/home/yusk5/VitaShell/modules/user/vitashell_user.h
 vitashell_kernel.h
 -
 
