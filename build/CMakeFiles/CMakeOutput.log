@@ -29,28 +29,28 @@ The CXX compiler identification is GNU, found in "/home/yusk5/VitaShell/build/CM
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_7bea7/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7bea7.dir/build.make CMakeFiles/cmTC_7bea7.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_29e6a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_29e6a.dir/build.make CMakeFiles/cmTC_29e6a.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_7bea7.dir/testCCompiler.c.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -o CMakeFiles/cmTC_7bea7.dir/testCCompiler.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_7bea7
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_7bea7.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_7bea7.dir/testCCompiler.c.obj  -o cmTC_7bea7 
+Building C object CMakeFiles/cmTC_29e6a.dir/testCCompiler.c.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -o CMakeFiles/cmTC_29e6a.dir/testCCompiler.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_29e6a
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_29e6a.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_29e6a.dir/testCCompiler.c.obj  -o cmTC_29e6a 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_ea11d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea11d.dir/build.make CMakeFiles/cmTC_ea11d.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_c19a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c19a6.dir/build.make CMakeFiles/cmTC_c19a6.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -o CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.6.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_ea11d
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ea11d.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj  -o cmTC_ea11d  
+Building C object CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -o CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.6.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_c19a6
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c19a6.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj  -o cmTC_c19a6  
 Using built-in specs.
 COLLECT_GCC=D:\msys64\usr\local\vitasdk\bin\arm-vita-eabi-gcc.exe
 COLLECT_LTO_WRAPPER=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe
@@ -60,9 +60,9 @@ Thread model: posix
 gcc version 7.3.0 (GNU Tools for ARM Embedded Processors) 
 COMPILER_PATH=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/bin/
 LIBRARY_PATH=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/;d:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea11d' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
- d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\cc5GND69.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_ea11d d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea11d' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c19a6' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
+ d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\cc2y1ie5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_c19a6 d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c19a6' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -70,14 +70,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-vita-eabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_ea11d/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ea11d.dir/build.make CMakeFiles/cmTC_ea11d.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_c19a6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c19a6.dir/build.make CMakeFiles/cmTC_c19a6.dir/build]
   ignore line: [make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります]
-  ignore line: [Building C object CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -o CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.6.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_ea11d]
-  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_ea11d.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj  -o cmTC_ea11d  ]
+  ignore line: [Building C object CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -o CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.6.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_c19a6]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_c19a6.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj  -o cmTC_c19a6  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\msys64\usr\local\vitasdk\bin\arm-vita-eabi-gcc.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe]
@@ -92,13 +92,13 @@ Parsed C implicit link information from above output:
   ignore line: [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/]
   ignore line: [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/]
   ignore line: [d:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ea11d' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb']
-  link line: [ d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\cc5GND69.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_ea11d d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c19a6' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb']
+  link line: [ d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\cc2y1ie5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_c19a6 d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o]
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=D:\msys64\tmp\cc5GND69.res] ==> ignore
+    arg [-plugin-opt=-fresolution=D:\msys64\tmp\cc2y1ie5.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lSceRtc_stub] ==> ignore
@@ -112,7 +112,7 @@ Parsed C implicit link information from above output:
     arg [--sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_ea11d] ==> ignore
+    arg [cmTC_c19a6] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o] ==> ignore
@@ -122,7 +122,7 @@ Parsed C implicit link information from above output:
     arg [-Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib] ==> dir [d:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib]
     arg [-q] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_ea11d.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [CMakeFiles/cmTC_c19a6.dir/CMakeCCompilerABI.c.obj] ==> ignore
     arg [--start-group] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [-lc] ==> lib [c]
@@ -152,14 +152,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_f1591/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f1591.dir/build.make CMakeFiles/cmTC_f1591.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_dafe6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dafe6.dir/build.make CMakeFiles/cmTC_dafe6.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_f1591.dir/feature_tests.c.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -std=c11 -o CMakeFiles/cmTC_f1591.dir/feature_tests.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f1591
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f1591.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f1591.dir/feature_tests.c.obj  -o cmTC_f1591 
+Building C object CMakeFiles/cmTC_dafe6.dir/feature_tests.c.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -std=c11 -o CMakeFiles/cmTC_dafe6.dir/feature_tests.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dafe6
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_dafe6.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_dafe6.dir/feature_tests.c.obj  -o cmTC_dafe6 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -172,14 +172,14 @@ make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' �
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_f6547/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f6547.dir/build.make CMakeFiles/cmTC_f6547.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_f21e2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f21e2.dir/build.make CMakeFiles/cmTC_f21e2.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_f6547.dir/feature_tests.c.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -std=c99 -o CMakeFiles/cmTC_f6547.dir/feature_tests.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_f6547
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f6547.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f6547.dir/feature_tests.c.obj  -o cmTC_f6547 
+Building C object CMakeFiles/cmTC_f21e2.dir/feature_tests.c.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -std=c99 -o CMakeFiles/cmTC_f21e2.dir/feature_tests.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f21e2
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_f21e2.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_f21e2.dir/feature_tests.c.obj  -o cmTC_f21e2 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -192,14 +192,14 @@ make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' �
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_8122a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8122a.dir/build.make CMakeFiles/cmTC_8122a.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_24ee6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24ee6.dir/build.make CMakeFiles/cmTC_24ee6.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building C object CMakeFiles/cmTC_8122a.dir/feature_tests.c.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -std=c90 -o CMakeFiles/cmTC_8122a.dir/feature_tests.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_8122a
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8122a.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8122a.dir/feature_tests.c.obj  -o cmTC_8122a 
+Building C object CMakeFiles/cmTC_24ee6.dir/feature_tests.c.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc    -Wl,-q    -std=c90 -o CMakeFiles/cmTC_24ee6.dir/feature_tests.c.obj   -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_24ee6
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_24ee6.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_24ee6.dir/feature_tests.c.obj  -o cmTC_24ee6 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -210,28 +210,28 @@ make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' �
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_11319/fast"
-/usr/bin/make -f CMakeFiles/cmTC_11319.dir/build.make CMakeFiles/cmTC_11319.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_b5ce6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b5ce6.dir/build.make CMakeFiles/cmTC_b5ce6.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_11319.dir/testCXXCompiler.cxx.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -o CMakeFiles/cmTC_11319.dir/testCXXCompiler.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_11319
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_11319.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_11319.dir/testCXXCompiler.cxx.obj  -o cmTC_11319 
+Building CXX object CMakeFiles/cmTC_b5ce6.dir/testCXXCompiler.cxx.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -o CMakeFiles/cmTC_b5ce6.dir/testCXXCompiler.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b5ce6
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_b5ce6.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_b5ce6.dir/testCXXCompiler.cxx.obj  -o cmTC_b5ce6 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_20b8f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_20b8f.dir/build.make CMakeFiles/cmTC_20b8f.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_e889f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e889f.dir/build.make CMakeFiles/cmTC_e889f.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -o CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.6.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_20b8f
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_20b8f.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_20b8f  
+Building CXX object CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -o CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.6.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e889f
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e889f.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_e889f  
 Using built-in specs.
 COLLECT_GCC=D:\msys64\usr\local\vitasdk\bin\arm-vita-eabi-g++.exe
 COLLECT_LTO_WRAPPER=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe
@@ -241,9 +241,9 @@ Thread model: posix
 gcc version 7.3.0 (GNU Tools for ARM Embedded Processors) 
 COMPILER_PATH=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/bin/
 LIBRARY_PATH=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/;d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/;d:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_20b8f' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
- d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\ccD2lxdO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_20b8f d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_20b8f' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e889f' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
+ d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\ccTffqJl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_e889f d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e889f' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb'
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -251,14 +251,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-vita-eabi-ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_20b8f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_20b8f.dir/build.make CMakeFiles/cmTC_20b8f.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make.exe" "cmTC_e889f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_e889f.dir/build.make CMakeFiles/cmTC_e889f.dir/build]
   ignore line: [make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります]
-  ignore line: [Building CXX object CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -o CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.6.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_20b8f]
-  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_20b8f.dir/link.txt --verbose=1]
-  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_20b8f  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -o CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.6.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_e889f]
+  ignore line: [/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_e889f.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc -v CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_e889f  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=D:\msys64\usr\local\vitasdk\bin\arm-vita-eabi-g++.exe]
   ignore line: [COLLECT_LTO_WRAPPER=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe]
@@ -273,13 +273,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/]
   ignore line: [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/]
   ignore line: [d:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_20b8f' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb']
-  link line: [ d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\ccD2lxdO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_20b8f d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_e889f' '-march=armv7-a' '-mtune=cortex-a9' '-mfloat-abi=hard' '-mfpu=neon' '-mthumb']
+  link line: [ d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe -plugin d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll -plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe -plugin-opt=-fresolution=D:\msys64\tmp\ccTffqJl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lSceRtc_stub -plugin-opt=-pass-through=-lSceSysmem_stub -plugin-opt=-pass-through=-lSceKernelThreadMgr_stub -plugin-opt=-pass-through=-lSceKernelModulemgr_stub -plugin-opt=-pass-through=-lSceIofilemgr_stub -plugin-opt=-pass-through=-lSceProcessmgr_stub -plugin-opt=-pass-through=-lSceLibKernel_stub -plugin-opt=-pass-through=-lSceNet_stub --sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi -X -o cmTC_e889f d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0 -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc -Ld:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib -Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib -q -z nocopyreloc CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc -lSceRtc_stub -lSceSysmem_stub -lSceKernelThreadMgr_stub -lSceKernelModulemgr_stub -lSceIofilemgr_stub -lSceProcessmgr_stub -lSceLibKernel_stub -lSceNet_stub --end-group d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtend.o d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtn.o]
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/collect2.exe] ==> ignore
     arg [-plugin] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/liblto_plugin-0.dll] ==> ignore
     arg [-plugin-opt=d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/lto-wrapper.exe] ==> ignore
-    arg [-plugin-opt=-fresolution=D:\msys64\tmp\ccD2lxdO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=D:\msys64\tmp\ccTffqJl.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lSceRtc_stub] ==> ignore
@@ -293,7 +293,7 @@ Parsed CXX implicit link information from above output:
     arg [--sysroot=d:\msys64\usr\local\vitasdk\bin\../arm-vita-eabi] ==> ignore
     arg [-X] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_20b8f] ==> ignore
+    arg [cmTC_e889f] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crti.o] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/crtbegin.o] ==> ignore
     arg [d:/msys64/usr/local/vitasdk/bin/../lib/gcc/arm-vita-eabi/7.3.0/../../../../arm-vita-eabi/lib/crt0.o] ==> ignore
@@ -303,7 +303,7 @@ Parsed CXX implicit link information from above output:
     arg [-Ld:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib] ==> dir [d:/msys64/usr/local/vitasdk/bin/../arm-vita-eabi/lib]
     arg [-q] ==> ignore
     arg [-znocopyreloc] ==> ignore
-    arg [CMakeFiles/cmTC_20b8f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [CMakeFiles/cmTC_e889f.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [--start-group] ==> ignore
@@ -335,14 +335,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_8e546/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8e546.dir/build.make CMakeFiles/cmTC_8e546.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_62efa/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62efa.dir/build.make CMakeFiles/cmTC_62efa.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_8e546.dir/feature_tests.cxx.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -std=c++14 -o CMakeFiles/cmTC_8e546.dir/feature_tests.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_8e546
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_8e546.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_8e546.dir/feature_tests.cxx.obj  -o cmTC_8e546 
+Building CXX object CMakeFiles/cmTC_62efa.dir/feature_tests.cxx.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -std=c++14 -o CMakeFiles/cmTC_62efa.dir/feature_tests.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62efa
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_62efa.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_62efa.dir/feature_tests.cxx.obj  -o cmTC_62efa 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -408,14 +408,14 @@ make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' �
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_99edd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_99edd.dir/build.make CMakeFiles/cmTC_99edd.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_49521/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49521.dir/build.make CMakeFiles/cmTC_49521.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_99edd.dir/feature_tests.cxx.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -std=c++11 -o CMakeFiles/cmTC_99edd.dir/feature_tests.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_99edd
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_99edd.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_99edd.dir/feature_tests.cxx.obj  -o cmTC_99edd 
+Building CXX object CMakeFiles/cmTC_49521.dir/feature_tests.cxx.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -std=c++11 -o CMakeFiles/cmTC_49521.dir/feature_tests.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_49521
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_49521.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_49521.dir/feature_tests.cxx.obj  -o cmTC_49521 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 
@@ -481,14 +481,14 @@ make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' �
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make.exe" "cmTC_4532e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4532e.dir/build.make CMakeFiles/cmTC_4532e.dir/build
+Run Build Command:"/usr/bin/make.exe" "cmTC_aecab/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aecab.dir/build.make CMakeFiles/cmTC_aecab.dir/build
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' に入ります
-Building CXX object CMakeFiles/cmTC_4532e.dir/feature_tests.cxx.obj
-/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -std=c++98 -o CMakeFiles/cmTC_4532e.dir/feature_tests.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4532e
-/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_4532e.dir/link.txt --verbose=1
-/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_4532e.dir/feature_tests.cxx.obj  -o cmTC_4532e 
+Building CXX object CMakeFiles/cmTC_aecab.dir/feature_tests.cxx.obj
+/usr/local/vitasdk/bin/arm-vita-eabi-g++     -Wl,-q    -std=c++98 -o CMakeFiles/cmTC_aecab.dir/feature_tests.cxx.obj -c /home/yusk5/VitaShell/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_aecab
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTC_aecab.dir/link.txt --verbose=1
+/usr/local/vitasdk/bin/arm-vita-eabi-g++    -Wl,-q   -Wl,-z,nocopyreloc  CMakeFiles/cmTC_aecab.dir/feature_tests.cxx.obj  -o cmTC_aecab 
 make[1]: ディレクトリ '/home/yusk5/VitaShell/build/CMakeFiles/CMakeTmp' から出ます
 
 

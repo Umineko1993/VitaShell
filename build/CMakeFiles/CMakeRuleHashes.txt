@@ -5,7 +5,7 @@ c7d7f128fa4b4beb8c9d00eca6c5203b CMakeFiles/copy
 5da4ed9e13a83abb49c6d417794d6217 CMakeFiles/release
 653abbaa8d2c547e7ac0631ae0085483 CMakeFiles/send
 a79484ca477645bcad802f1529b2f478 VitaShell_JP.velf
-aca4f068b0b9f03f286955e5f08c026b VitaShell_JP.vpk_param.sfo
+2018d4bc2c400ae89b0e99ce90adffcf VitaShell_JP.vpk_param.sfo
 1e4e0d27272730905dc01579be8f800d resources/default/archive_icon.png.o
 b1617b9c3198b86bcc0b7ee4d841fab3 resources/default/audio_icon.png.o
 60b8a35c6a2903a7e687b9815c8c7ddb resources/default/battery.png.o

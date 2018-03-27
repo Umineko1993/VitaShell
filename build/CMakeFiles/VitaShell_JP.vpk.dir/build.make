@@ -59,7 +59,7 @@ CMakeFiles/VitaShell_JP.vpk: VitaShell_JP.vpk_param.sfo
 
 VitaShell_JP.vpk_param.sfo:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yusk5/VitaShell/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating param.sfo for VitaShell_JP.vpk"
-	/usr/local/vitasdk/bin/vita-mksfoex -d PARENTAL_LEVEL=1 -s APP_VER=01.83 -s TITLE_ID=VSJP00001 VitaShell_JP VitaShell_JP.vpk_param.sfo
+	/usr/local/vitasdk/bin/vita-mksfoex -d PARENTAL_LEVEL=1 -s APP_VER=01.90 -s TITLE_ID=VSJP00001 VitaShell_JP VitaShell_JP.vpk_param.sfo
 
 VitaShell_JP.vpk: CMakeFiles/VitaShell_JP.vpk
 VitaShell_JP.vpk: VitaShell_JP.vpk_param.sfo
