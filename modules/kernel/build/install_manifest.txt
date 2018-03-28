@@ -1,3 +1,0 @@
-/usr/local/vitasdk/arm-vita-eabi/lib/libVitaShellKernel2_stub.a
-/usr/local/vitasdk/arm-vita-eabi/lib/libVitaShellKernel2_stub_weak.a
-/usr/local/vitasdk/arm-vita-eabi/include/vitashell_kernel.h

@@ -1,5 +1,0 @@
----
-modules:
-  VitaShellPatch:
-    nid: 0x357d05b7
-    libraries: {}

@@ -1,5 +1,0 @@
-/home/yusk5/VitaShell/modules/usbdevice/build/CMakeFiles/edit_cache.dir
-/home/yusk5/VitaShell/modules/usbdevice/build/CMakeFiles/usbdevice.dir
-/home/yusk5/VitaShell/modules/usbdevice/build/CMakeFiles/usbdevice.skprx.dir
-/home/yusk5/VitaShell/modules/usbdevice/build/CMakeFiles/copy.dir
-/home/yusk5/VitaShell/modules/usbdevice/build/CMakeFiles/rebuild_cache.dir

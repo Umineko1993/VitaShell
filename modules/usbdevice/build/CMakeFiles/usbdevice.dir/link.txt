@@ -1,1 +1,0 @@
-/usr/local/vitasdk/bin/arm-vita-eabi-gcc   -Wl,-q -Wl,-q -Wall -O3 -nostdlib  -Wl,-z,nocopyreloc CMakeFiles/usbdevice.dir/main.c.obj  -o usbdevice -lSceIofilemgrForDriver_stub -lSceSysclibForDriver_stub -ltaihenForKernel_stub 
