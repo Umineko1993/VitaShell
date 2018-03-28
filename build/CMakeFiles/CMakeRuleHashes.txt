@@ -2,7 +2,7 @@
 2c982771a43b7f0effcb482c5d4d6c2f CMakeFiles/VitaShell_JP.vpk
 c7d7f128fa4b4beb8c9d00eca6c5203b CMakeFiles/copy
 97fb0b6c29f4200109ab729ea441a3c0 CMakeFiles/eboot.bin
-5da4ed9e13a83abb49c6d417794d6217 CMakeFiles/release
+141761014c50a5f288d9b85209352b33 CMakeFiles/release
 653abbaa8d2c547e7ac0631ae0085483 CMakeFiles/send
 a79484ca477645bcad802f1529b2f478 VitaShell_JP.velf
 2018d4bc2c400ae89b0e99ce90adffcf VitaShell_JP.vpk_param.sfo

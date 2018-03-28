@@ -53,8 +53,8 @@ CMAKE_BINARY_DIR = /home/yusk5/VitaShell/build
 # Include the progress variables for this target.
 include CMakeFiles/release.dir/progress.make
 
-CMakeFiles/release: ../VitaShell.vpk
-	cp VitaShell.vpk ../release/VitaShell.vpk
+CMakeFiles/release:
+	cp VitaShell_JP.vpk ../release/VitaShell_JP.vpk
 
 release: CMakeFiles/release
 release: CMakeFiles/release.dir/build.make

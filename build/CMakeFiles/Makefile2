@@ -238,7 +238,7 @@ clean: CMakeFiles/VitaShell_JP.vpk.dir/clean
 # Target rules for target CMakeFiles/release.dir
 
 # All Build rule for target.
-CMakeFiles/release.dir/all:
+CMakeFiles/release.dir/all: CMakeFiles/VitaShell_JP.vpk.dir/all
 	$(MAKE) -f CMakeFiles/release.dir/build.make CMakeFiles/release.dir/depend
 	$(MAKE) -f CMakeFiles/release.dir/build.make CMakeFiles/release.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/yusk5/VitaShell/build/CMakeFiles --progress-num= "Built target release"
@@ -246,7 +246,7 @@ CMakeFiles/release.dir/all:
 
 # Build rule for subdir invocation for target.
 CMakeFiles/release.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusk5/VitaShell/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusk5/VitaShell/build/CMakeFiles 100
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/release.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/yusk5/VitaShell/build/CMakeFiles 0
 .PHONY : CMakeFiles/release.dir/rule
