@@ -76,7 +76,7 @@ int network_update_thread(SceSize args, void *argp) {
         }
 
         // Yes
-        return downloadFileProcess(BASE_ADDRESS "/VitaShell.vpk", VITASHELL_UPDATE_FILE, DIALOG_STEP_DOWNLOADED);
+        return downloadFileProcess(BASE_ADDRESS "/VitaShell_JP.vpk", VITASHELL_UPDATE_FILE, DIALOG_STEP_DOWNLOADED);
       }
     }
   }
