@@ -190,8 +190,8 @@ vita_create_vpk(VitaShell_JP.vpk ${VITA_TITLEID} eboot.bin
 )
 
 add_custom_target(release
-  COMMAND cp VitaShell.vpk ../release/VitaShell.vpk
-  DEPENDS VitaShell.vpk
+  COMMAND cp VitaShell_JP.vpk ../release/VitaShell_JP.vpk
+  DEPENDS VitaShell_JP.vpk
 )
 
 add_custom_target(send
