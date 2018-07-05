@@ -673,7 +673,7 @@ static int dialogSteps() {
             if (res < 0)
               errorDialog(res);
             else
-              infoDialog(language_container[USB_UMA0_MOUNTED]);
+              infoDialog(language_container[UMA0_MOUNTED]);
             refresh = REFRESH_MODE_NORMAL;
           }
         }
@@ -893,7 +893,7 @@ static int dialogSteps() {
 
       break;
     }
-    
+
     case DIALOG_STEP_NEW_FOLDER:
     {
       if (ime_result == IME_DIALOG_RESULT_FINISHED) {
@@ -922,7 +922,38 @@ static int dialogSteps() {
 
       break;
     }
-    
+
+    case DIALOG_STEP_NEW_FILE:
+    {
+      if (ime_result == IME_DIALOG_RESULT_FINISHED) {
+        char *name = (char *)getImeDialogInputTextUTF8();
+        if (name[0] == '\0') {
+          setDialogStep(DIALOG_STEP_NONE);
+        } else {
+          char path[MAX_PATH_LENGTH];
+          snprintf(path, MAX_PATH_LENGTH - 1, "%s%s", file_list.path, name);
+
+          SceUID fd = sceIoOpen(path, SCE_O_WRONLY | SCE_O_CREAT, 0777);
+          if (fd < 0) {
+            errorDialog(fd);
+          } else {
+            sceIoClose(fd);
+
+            // Focus
+            strcpy(focus_name, name);
+            addEndSlash(focus_name);
+
+            refresh = REFRESH_MODE_SETFOCUS;
+            setDialogStep(DIALOG_STEP_NONE);
+            refreshFileList();
+          }
+        }
+      } else if (ime_result == IME_DIALOG_RESULT_CANCELED) {
+        setDialogStep(DIALOG_STEP_NONE);
+      }
+      break;
+    }
+
     case DIALOG_STEP_COMPRESS_NAME:
     {
       if (ime_result == IME_DIALOG_RESULT_FINISHED) {
@@ -941,7 +972,7 @@ static int dialogSteps() {
       
       break;
     }
-    
+
     case DIALOG_STEP_COMPRESS_LEVEL:
     {
       if (ime_result == IME_DIALOG_RESULT_FINISHED) {
@@ -1645,37 +1676,39 @@ static int shellMain() {
   // Current path is 'home'
   strcpy(file_list.path, HOME_PATH);
 
-  // Last dir
-  char lastdir[MAX_PATH_LENGTH];
-  ReadFile(VITASHELL_LASTDIR, lastdir, sizeof(lastdir));
+  if (use_custom_config) {
+    // Last dir
+    char lastdir[MAX_PATH_LENGTH];
+    ReadFile(VITASHELL_LASTDIR, lastdir, sizeof(lastdir));
 
-  // Calculate dir positions if the dir is valid
-  if (checkFolderExist(lastdir)) {
-    int i;
-    for (i = 0; i < strlen(lastdir) + 1; i++) {
-      if (lastdir[i] == ':' || lastdir[i] == '/') {
-        char ch = lastdir[i + 1];
-        lastdir[i + 1] = '\0';
+    // Calculate dir positions if the dir is valid
+    if (checkFolderExist(lastdir)) {
+      int i;
+      for (i = 0; i < strlen(lastdir) + 1; i++) {
+        if (lastdir[i] == ':' || lastdir[i] == '/') {
+          char ch = lastdir[i + 1];
+          lastdir[i + 1] = '\0';
 
-        char ch2 = lastdir[i];
-        lastdir[i] = '\0';
+          char ch2 = lastdir[i];
+          lastdir[i] = '\0';
 
-        char *p = strrchr(lastdir, '/');
-        if (!p)
-          p = strrchr(lastdir, ':');
-        if (!p)
-          p = lastdir - 1;
+          char *p = strrchr(lastdir, '/');
+          if (!p)
+            p = strrchr(lastdir, ':');
+          if (!p)
+            p = lastdir - 1;
 
-        lastdir[i] = ch2;
+          lastdir[i] = ch2;
 
-        refreshFileList();
-        setFocusOnFilename(p + 1);
+          refreshFileList();
+          setFocusOnFilename(p + 1);
 
-        strcpy(file_list.path, lastdir);
+          strcpy(file_list.path, lastdir);
 
-        lastdir[i + 1] = ch;
+          lastdir[i + 1] = ch;
 
-        dirLevelUp();
+          dirLevelUp();
+        }
       }
     }
   }
@@ -1933,7 +1966,7 @@ int main(int argc, const char *argv[]) {
   readPad();
   if (current_pad[PAD_LTRIGGER])
     use_custom_config = 0;
-
+  
   // Load settings
   loadSettingsConfig();
 
@@ -1946,7 +1979,7 @@ int main(int argc, const char *argv[]) {
   // Init context menu width
   initContextMenuWidth();
   initTextContextMenuWidth();
-
+  
   // Automatic network update
   if (!vitashell_config.disable_autoupdate) {
     SceUID thid = sceKernelCreateThread("network_update_thread", (SceKernelThreadEntry)network_update_thread, 0x10000100, 0x100000, 0, 0, NULL);

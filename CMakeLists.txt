@@ -14,7 +14,7 @@ project(VitaShell_JP)
 include("${VITASDK}/share/vita.cmake" REQUIRED)
 set(VITA_APP_NAME "VitaShell_JP")
 set(VITA_TITLEID  "VSJP00001")
-set(VITA_VERSION  "01.90")
+set(VITA_VERSION  "01.94")
 
 # Flags and includes
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -Wall -O3 -Wno-unused-variable -Wno-unused-but-set-variable -Wno-format-truncation -fno-lto")
@@ -190,8 +190,13 @@ vita_create_vpk(VitaShell_JP.vpk ${VITA_TITLEID} eboot.bin
 )
 
 add_custom_target(release
+  COMMAND cp eboot.bin ../release/eboot.bin
+  COMMAND cp VitaShell_JP.vpk_param.sfo ../release/param.sfo
   COMMAND cp VitaShell_JP.vpk ../release/VitaShell_JP.vpk
+  COMMAND cp ../pkg/sce_sys/livearea/contents/template.xml ../release/template.xml
+  DEPENDS eboot.bin
   DEPENDS VitaShell_JP.vpk
+  DEPENDS VitaShell_JP.vpk_param.sfo
 )
 
 add_custom_target(send
@@ -200,6 +205,6 @@ add_custom_target(send
 )
 
 add_custom_target(copy
-  COMMAND cp eboot.bin F:/app/${VITA_TITLEID}/eboot.bin
+  COMMAND cp eboot.bin H:/app/${VITA_TITLEID}/eboot.bin
   DEPENDS eboot.bin
 )

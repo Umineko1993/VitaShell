@@ -53,13 +53,13 @@
 
 // VitaShell version major.minor
 #define VITASHELL_VERSION_MAJOR 0x01
-#define VITASHELL_VERSION_MINOR 0x90
+#define VITASHELL_VERSION_MINOR 0x94
 
 #define VITASHELL_VERSION ((VITASHELL_VERSION_MAJOR << 0x18) | (VITASHELL_VERSION_MINOR << 0x10))
 
 #define VITASHELL_LASTDIR "ux0:VitaShell_JP/internal/lastdir.txt"
 
-#define VITASHELL_TITLEID "VSJP00001"
+#define VITASHELL_TITLEID "VITASHELL"
 
 #define ALIGN(x, align) (((x) + ((align) - 1)) & ~((align) - 1))
 
@@ -176,6 +176,8 @@ enum DialogSteps {
   DIALOG_STEP_USB,
 
   DIALOG_STEP_RENAME,
+
+  DIALOG_STEP_NEW_FILE,
   DIALOG_STEP_NEW_FOLDER,
 
   DIALOG_STEP_COPYING,

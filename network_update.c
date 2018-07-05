@@ -29,8 +29,8 @@
 
 #define BASE_ADDRESS "https://raw.githubusercontent.com/Umineko1993/VitaShell/master/release"
 #define VERSION_URL "/version.bin"
-#define VITASHELL_UPDATE_FILE "ux0:VitaShell_JP/internal/VitaShell_JP.vpk"
-#define VITASHELL_VERSION_FILE "ux0:VitaShell_JP/internal/version.bin"
+#define VITASHELL_UPDATE_FILE "ux0:VitaShell/internal/VitaShell_JP.vpk"
+#define VITASHELL_VERSION_FILE "ux0:VitaShell/internal/version.bin"
 
 extern unsigned char _binary_resources_updater_eboot_bin_start;
 extern unsigned char _binary_resources_updater_eboot_bin_size;
@@ -76,7 +76,7 @@ int network_update_thread(SceSize args, void *argp) {
         }
 
         // Yes
-        return downloadFileProcess(BASE_ADDRESS "/VitaShell_JP.vpk", VITASHELL_UPDATE_FILE, DIALOG_STEP_DOWNLOADED);
+        return downloadFileProcess(BASE_ADDRESS "/VitaShell.vpk", VITASHELL_UPDATE_FILE, DIALOG_STEP_DOWNLOADED);
       }
     }
   }
