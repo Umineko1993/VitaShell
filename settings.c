@@ -90,7 +90,7 @@ void loadSettingsConfig() {
 
 void saveSettingsConfig() {
   // Save settings config file
-  writeConfig("ux0:VitaShell/settings.txt", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
+  writeConfig("ux0:VitaShell_JP/settings.txt", settings_entries, sizeof(settings_entries) / sizeof(ConfigEntry));
 
   if (sceKernelGetModel() == SCE_KERNEL_MODEL_VITATV) {
     vitashell_config.select_button = SELECT_BUTTON_MODE_FTP;
