@@ -4,11 +4,6 @@ VitaShell
 VitaShell is an alternative replacement of the PS Vita's LiveArea. It offers you a file manager, package installer, built-in FTP and much more.
 This homebrew was an entry of the Revitalize PS Vita homebrew competition and won the first prize. HENkaku's molecularShell is also based on VitaShell.
 
-Donation
---------
-All my work is voluntary and nonprofit, however you can support my work by making a small donation - no matter how small, I'd be very thankful!
-[Donation Link](https://www.paypal.me/PSVitaTheFloW)
-
 How to use an USB flash drive as Memory Card on a PS TV
 -------------------------------------------------------
 - Format your USB flash drive as exFAT or FAT32.
@@ -107,10 +102,26 @@ Credits
 Changelog
 ---------
 
-+### Changelog 1.9
-+- Added ability to open decrypted trophys, savedatas and appmetas.
-+- Moved `Open Decrypted` entry to main context menu for faster access.
-+
+### Changelog 1.94
+- Added ability to umount all partitions that you can mount.
+- Fixed crash when using StorageMgr.
+
+### Changelog 1.93
+- Added xmc0: to partition list and added ability to mount xmc0:.
+- Fixed ux0: mounting bug where it wasn't detected that the gamesd has already been mounted.
+
+### Changelog 1.92
+- Added ability to mount gamesd ux0:
+- Fixed bug where the VitaShell kernel module was loaded but not started, thus it'd run out of memory after some launches.
+
+### Changelog 1.91
+- Added ability to create new files, thanks to abertschi.
+- Added ability to skip last dir by holding L on startup.
+- Added support for firmware 3.68.
+
+### Changelog 1.9
+- Added ability to open decrypted trophys, savedatas and appmetas.
+- Moved `Open Decrypted` entry to main context menu for faster access.
 
 ### Changelog 1.83
 - Fixed automatic network update by using rawgit. This was needed because github removed support for TLS 1.0/1.1.
