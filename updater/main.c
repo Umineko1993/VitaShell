@@ -160,11 +160,11 @@ int main(int argc, const char *argv[]) {
   sceAppMgrDestroyOtherApp();
 
   char *titleid = get_title_id(PACKAGE_DIR "/sce_sys/param.sfo");
-  if (titleid && strcmp(titleid, "VSJP00001") == 0) {
+  if (titleid && strcmp(titleid, "VITASHELL") == 0) {
     promoteApp(PACKAGE_DIR);
   }
 
-  launchAppByUriExit("VSJP00001");
+  launchAppByUriExit("VITASHELL");
 
   return 0;
 }
